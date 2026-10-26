@@ -1,0 +1,226 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="draft-page-01" name="01 : Черновик">
+    <mxGraphModel dx="3459" dy="1331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1450" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontSize=26;fontStyle=1;fontColor=#1F2937;" value="Проект «Технокорзина»" vertex="1">
+          <mxGeometry height="48" width="860" x="120" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontSize=15;fontColor=#4B5563;" value="Манько Еремей ИС25/9-3" vertex="1">
+          <mxGeometry height="32" width="860" x="120" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="client" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DCEBFA;strokeColor=#3973AC;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#17365D;spacing=12;" value="Клиент" vertex="1">
+          <mxGeometry height="90" width="380" x="95" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="client_desc" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#9BBCE0;fillColor=#F0F6FD;fontSize=14;fontColor=#243B53;" value="Данные клиента: имя, контакты,&lt;br&gt;адрес доставки" vertex="1">
+          <mxGeometry height="55" width="380" x="95" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="order" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DCEBFA;strokeColor=#3973AC;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#17365D;spacing=12;" value="Заказ" vertex="1">
+          <mxGeometry height="90" width="380" x="625" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="order_desc" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#9BBCE0;fillColor=#F0F6FD;fontSize=14;fontColor=#243B53;" value="Состав заказа, дата, статус,&lt;br&gt;сумма и клиент" vertex="1">
+          <mxGeometry height="55" width="380" x="625" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="product" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DCEBFA;strokeColor=#3973AC;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#17365D;spacing=12;" value="Товар" vertex="1">
+          <mxGeometry height="90" width="380" x="95" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="product_desc" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#9BBCE0;fillColor=#F0F6FD;fontSize=14;fontColor=#243B53;" value="Название, описание, цена,&lt;br&gt;остаток на складе" vertex="1">
+          <mxGeometry height="55" width="380" x="95" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="category" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DCEBFA;strokeColor=#3973AC;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#17365D;spacing=12;" value="Категория" vertex="1">
+          <mxGeometry height="90" width="380" x="625" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="category_desc" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#9BBCE0;fillColor=#F0F6FD;fontSize=14;fontColor=#243B53;" value="Название категории и описание;&lt;br&gt;группирует товары по типу" vertex="1">
+          <mxGeometry height="55" width="380" x="625" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontSize=15;fontColor=#4B5563;" value="Черновик: кандидаты в объекты предметной области" vertex="1">
+          <mxGeometry height="28" width="660" x="220" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="task2_heading" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;fontColor=#1F2937;" value="Задание 2. Первичная таблица заказов «Заказ_черновик»" vertex="1">
+          <mxGeometry height="35" width="930" x="80" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="t2h0" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Поле" vertex="1">
+          <mxGeometry height="42" width="105" x="80" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="t2h1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Тип данных" vertex="1">
+          <mxGeometry height="42" width="100" x="185" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="t2h2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#B7791F;fillColor=#FDECC8;fontSize=12;fontStyle=1;spacing=5;" value="Ключ" vertex="1">
+          <mxGeometry height="42" width="105" x="285" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="t2h3" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Номер заказа" vertex="1">
+          <mxGeometry height="42" width="150" x="390" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="t2h4" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Дата заказа" vertex="1">
+          <mxGeometry height="42" width="125" x="540" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="t2h5" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Код покупателя" vertex="1">
+          <mxGeometry height="42" width="130" x="665" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="t2h6" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="ФИО / телефон / состав заказа" vertex="1">
+          <mxGeometry height="42" width="190" x="795" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r0c0" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="НомерЗаказа" vertex="1">
+          <mxGeometry height="35" width="105" x="80" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r0c1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="INT" vertex="1">
+          <mxGeometry height="35" width="100" x="185" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r0c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#B7791F;fillColor=#FDECC8;fontSize=12;fontStyle=1;spacing=5;" value="РК (PK)" vertex="1">
+          <mxGeometry height="35" width="105" x="285" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r0c3" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Из исходника" vertex="1">
+          <mxGeometry height="35" width="150" x="390" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r0c4" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="125" x="540" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r0c5" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="130" x="665" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r0c6" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="190" x="795" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r1c0" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="ДатаЗаказа" vertex="1">
+          <mxGeometry height="35" width="105" x="80" y="882" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r1c1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="DATE" vertex="1">
+          <mxGeometry height="35" width="100" x="185" y="882" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r1c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="105" x="285" y="882" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r1c3" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="150" x="390" y="882" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r1c4" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Из исходника" vertex="1">
+          <mxGeometry height="35" width="125" x="540" y="882" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r1c5" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="130" x="665" y="882" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r1c6" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="190" x="795" y="882" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r2c0" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="КодПокупателя" vertex="1">
+          <mxGeometry height="35" width="105" x="80" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r2c1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="VARCHAR(20)" vertex="1">
+          <mxGeometry height="35" width="100" x="185" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r2c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="105" x="285" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r2c3" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="150" x="390" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r2c4" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="125" x="540" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r2c5" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Из исходника" vertex="1">
+          <mxGeometry height="35" width="130" x="665" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r2c6" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="190" x="795" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r3c0" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="ФИОПокупателя" vertex="1">
+          <mxGeometry height="35" width="105" x="80" y="952" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r3c1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="VARCHAR(150)" vertex="1">
+          <mxGeometry height="35" width="100" x="185" y="952" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r3c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="105" x="285" y="952" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r3c3" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="150" x="390" y="952" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r3c4" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="125" x="540" y="952" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r3c5" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="130" x="665" y="952" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r3c6" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Из исходника" vertex="1">
+          <mxGeometry height="35" width="190" x="795" y="952" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r4c0" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Телефон" vertex="1">
+          <mxGeometry height="35" width="105" x="80" y="987" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r4c1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="VARCHAR(20)" vertex="1">
+          <mxGeometry height="35" width="100" x="185" y="987" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r4c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="105" x="285" y="987" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r4c3" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="150" x="390" y="987" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r4c4" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="125" x="540" y="987" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r4c5" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="130" x="665" y="987" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r4c6" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Из исходника" vertex="1">
+          <mxGeometry height="35" width="190" x="795" y="987" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r5c0" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="СоставЗаказаТекст" vertex="1">
+          <mxGeometry height="35" width="105" x="80" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r5c1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="TEXT" vertex="1">
+          <mxGeometry height="35" width="100" x="185" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r5c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="105" x="285" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r5c3" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="150" x="390" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r5c4" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="125" x="540" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r5c5" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="—" vertex="1">
+          <mxGeometry height="35" width="130" x="665" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r5c6" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#E5F4E9;fontSize=12;spacing=5;" value="Из исходника" vertex="1">
+          <mxGeometry height="35" width="190" x="795" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="pk_note" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#C27A16;fillColor=#FFF3D6;fontSize=12;fontColor=#704214;spacing=7;rounded=1;" value="Почему РК — «НомерЗаказа»: уникально идентифицирует каждый заказ и не зависит от даты, телефона или состава заказа." vertex="1">
+          <mxGeometry height="48" width="905" x="80" y="1071" as="geometry" />
+        </mxCell>
+        <mxCell id="rows_note" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#C27A16;fillColor=#FFF3D6;fontSize=12;fontColor=#704214;spacing=7;rounded=1;" value="4 строки заказов: замените пометки «Из исходника» реальными значениями. Исходные данные с четырьмя заказами в сообщении не приложены, поэтому значения не выдуманы." vertex="1">
+          <mxGeometry height="58" width="905" x="80" y="1129" as="geometry" />
+        </mxCell>
+        <mxCell id="t2h_status" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#D7F0DF;fontSize=12;spacing=5;" value="СтатусЗаказа" vertex="1">
+          <mxGeometry height="42" width="105" x="985" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r0c_status" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#D7F0DF;fontSize=12;spacing=5;" value="новый" vertex="1">
+          <mxGeometry height="35" width="105" x="985" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r1c_status" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#D7F0DF;fontSize=12;spacing=5;" value="собирается" vertex="1">
+          <mxGeometry height="35" width="105" x="985" y="882" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r2c_status" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#D7F0DF;fontSize=12;spacing=5;" value="отправлен" vertex="1">
+          <mxGeometry height="35" width="105" x="985" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="t2r3c_status" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#4F8A68;fillColor=#D7F0DF;fontSize=12;spacing=5;" value="новый" vertex="1">
+          <mxGeometry height="35" width="105" x="985" y="952" as="geometry" />
+        </mxCell>
+        <mxCell id="what_changed_heading" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;fontColor=#1F2937;" value="Что изменил" vertex="1">
+          <mxGeometry height="28" width="250" x="80" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="what_changed_note" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#C27A16;fillColor=#FFF3D6;fontSize=12;fontColor=#704214;spacing=7;rounded=1;" value="Переименовал общее поле «СоставЗаказа» в более точное «СоставЗаказаТекст» — оно явно показывает, что список товаров пока хранится одной текстовой строкой, а не отдельными позициями заказа." vertex="1">
+          <mxGeometry height="58" width="1010" x="80" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="draft_problems_heading" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;fontColor=#1F2937;" value="Проблемы черновика" vertex="1">
+          <mxGeometry height="30" width="350" x="80" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="draft_problems_note" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=#C27A16;fillColor=#FFF3D6;fontSize=12;fontColor=#704214;spacing=7;rounded=1;" value="1. Состав заказа хранится одним текстом: трудно искать отдельные товары и считать количество.\n2. Данные покупателя повторяются в каждом заказе: при изменении телефона возможны расхождения.\n3. Статус записывается свободным текстом: возможны опечатки и разные варианты одного статуса.\n4. В одной таблице смешаны сведения о заказе и покупателе: сложнее поддерживать целостность данных." vertex="1">
+          <mxGeometry height="112" width="1010" x="80" y="1288" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
